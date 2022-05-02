@@ -23,15 +23,18 @@ JS파일
  
 SQL파일
  
- db.sql : table생성 관련된 sql문장
+  db.sql : table생성 관련된 sql문장
 
-function.sql : pl sql 형식으로 만든 sql 함수
+  function.sql : pl sql 형식으로 만든 sql 함수
  
 실행방법
- 
+
  1.function.sql 의 sql 문장 실행
+ 
  2.db.sql의 sql 문장 실행
+ 
  3.db.js의 js 본인 db 비밀번호 입력
+ 
  4.test.js 파일 실행
  
  
