@@ -1,5 +1,6 @@
 #cloudAppConentService의 db파트 부분 담당자 : 위대환 
-CMS-
+
+CMS
   1. 나이대별 선호 컨텐츠 : db.sql 하단에 위치
   2. 성별별 선호 컨텐츠 : db.sql 하단에 위치
   3. 누적 선호 컨텐츠 : db.sql 하단에 위치
