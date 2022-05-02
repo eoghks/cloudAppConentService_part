@@ -13,5 +13,19 @@ DB-sever
   4. 카테고리 추가함수 : function.slq의 insertCategory함수
   5. path 얻기 함수 : db_functionn.js의 getpath
  
+ JS파일
  test.js: 올바르게 작동하는지 확인하는 js파일
+ db_function.js: db와 관련되 js함수를 모아놓은 js파일
  db.js : db와 연결하는 파일
+ 
+ SQL파일
+ db.sql : table생성 관련된 sql문장
+ function.sql : pl sql 형식으로 만든 sql 함수
+ 
+ 실행방법
+ 1.function.sql 의 sql 문장 실행
+ 2.db.sql의 sql 문장 실행
+ 3.db.js의 js 본인 db 비밀번호 입력
+ 4.test.js 파일 실행
+ 
+ 
