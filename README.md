@@ -1,19 +1,7 @@
 #cloudAppConentService의 db파트 부분 담당자 : 위대환 
 
-CMS
-  1. 나이대별 선호 컨텐츠 : db.sql 하단에 위치
-  2. 성별별 선호 컨텐츠 : db.sql 하단에 위치
-  3. 누적 선호 컨텐츠 : db.sql 하단에 위치
-  4. 나이대별 선호 카테고리 : function.slq의 CMS_category_age_part1함수
-  5. 성별별 선호 카테고리 : function.slq의 CMS_category_sex_part1함수
-  
-DB-sever
-  1. 오류 테이블 : db_functionn.js의 insert_error
-  2. 유저정보 확인 및 없을경우 유정정보 추가 함수 : function.slq의 checkuser 함수 , db_functionn.js의 user
-  3. 컨텐츠 추가 함수  : function.slq의 insertConent함수
-  4. 카테고리 추가함수 : function.slq의 insertCategory함수
-  5. path 얻기 함수 : db_functionn.js의 getpath
- 
+version2이후~
+
 JS파일
  
  test.js: 올바르게 작동하는지 확인하는 js파일
@@ -24,18 +12,29 @@ JS파일
  
 SQL파일
  
-  db.sql : table생성 관련된 sql문장
+  table.sql : table생성 관련된 sql문장
 
   function.sql : pl sql 형식으로 만든 sql 함수
+  
+  insert_example : 실행 예제를 입력하기위한 sql문장
+  
+  select_cms : cms를 구현해놓은 sql문장
  
-실행방법
+예제 sql 실행방법
 
- 1.function.sql 의 sql 문장 실행
+ 1.table.sql 의 sql 문장 실행
  
- 2.db.sql의 sql 문장 실행
+ 2.function.sql의 sql 문장 실행
+ 
+ 3.isnert_example의 sql 실행
  
  3.db.js의 js 본인 db 비밀번호 입력
  
  4.test.js 파일 실행
  
+ 5.test
+ 
+ 참고사항
+ 
+ js의 경우 인자를 받는것이 아닌 일정한 값으로 코딩되어있음을 참고
  
