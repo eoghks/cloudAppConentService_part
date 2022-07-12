@@ -1,4 +1,4 @@
-#cloudAppConentService의 db파트 부분 담당자 : 위대환 
+#cloudAppConentService의 db파트 : 위대환 
 
 final version 사용
 
